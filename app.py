@@ -14,7 +14,7 @@ def index():
             registrations.append({'name': name, 'email': email})
 
     return render_template('index.html', registrations=registrations)
-
+#trigger build 43
 @app.route('/health')
 def health():
     return "OK", 200
