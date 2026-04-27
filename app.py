@@ -3,7 +3,7 @@ from flask import Flask, render_template, request
 app = Flask(__name__)
 
 registrations = []
-
+#test trigger
 @app.route('/', methods=['GET', 'POST'])
 def index():
     if request.method == 'POST':
